@@ -1,8 +1,8 @@
-package org.qcri.rheem.postgres.operators;
+package io.rheem.rheem.postgres.operators;
 
-import org.qcri.rheem.basic.operators.TableSource;
-import org.qcri.rheem.core.platform.ChannelDescriptor;
-import org.qcri.rheem.jdbc.operators.JdbcTableSource;
+import io.rheem.rheem.basic.operators.TableSource;
+import io.rheem.rheem.core.platform.ChannelDescriptor;
+import io.rheem.rheem.jdbc.operators.JdbcTableSource;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package org.qcri.rheem.postgres.platform;
+package io.rheem.rheem.postgres.platform;
 
-import org.qcri.rheem.core.platform.Platform;
-import org.qcri.rheem.jdbc.platform.JdbcPlatformTemplate;
+import io.rheem.rheem.core.platform.Platform;
+import io.rheem.rheem.jdbc.platform.JdbcPlatformTemplate;
 
 /**
  * {@link Platform} implementation for SQLite3.

@@ -1,9 +1,9 @@
-package org.qcri.rheem.postgres;
+package io.rheem.rheem.postgres;
 
 
-import org.qcri.rheem.postgres.platform.PostgresPlatform;
-import org.qcri.rheem.postgres.plugin.PostgresConversionsPlugin;
-import org.qcri.rheem.postgres.plugin.PostgresPlugin;
+import io.rheem.rheem.postgres.platform.PostgresPlatform;
+import io.rheem.rheem.postgres.plugin.PostgresConversionsPlugin;
+import io.rheem.rheem.postgres.plugin.PostgresPlugin;
 
 /**
  * Register for relevant components of this module.

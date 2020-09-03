@@ -1,15 +1,15 @@
-package org.qcri.rheem.postgres.mapping;
+package io.rheem.rheem.postgres.mapping;
 
-import org.qcri.rheem.basic.data.Record;
-import org.qcri.rheem.basic.operators.FilterOperator;
-import org.qcri.rheem.core.mapping.Mapping;
-import org.qcri.rheem.core.mapping.OperatorPattern;
-import org.qcri.rheem.core.mapping.PlanTransformation;
-import org.qcri.rheem.core.mapping.ReplacementSubplanFactory;
-import org.qcri.rheem.core.mapping.SubplanPattern;
-import org.qcri.rheem.core.types.DataSetType;
-import org.qcri.rheem.postgres.operators.PostgresFilterOperator;
-import org.qcri.rheem.postgres.platform.PostgresPlatform;
+import io.rheem.rheem.basic.data.Record;
+import io.rheem.rheem.basic.operators.FilterOperator;
+import io.rheem.rheem.core.mapping.Mapping;
+import io.rheem.rheem.core.mapping.OperatorPattern;
+import io.rheem.rheem.core.mapping.PlanTransformation;
+import io.rheem.rheem.core.mapping.ReplacementSubplanFactory;
+import io.rheem.rheem.core.mapping.SubplanPattern;
+import io.rheem.rheem.core.types.DataSetType;
+import io.rheem.rheem.postgres.operators.PostgresFilterOperator;
+import io.rheem.rheem.postgres.platform.PostgresPlatform;
 
 import java.util.Collection;
 import java.util.Collections;

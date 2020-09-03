@@ -1,6 +1,6 @@
-package org.qcri.rheem.postgres.mapping;
+package io.rheem.rheem.postgres.mapping;
 
-import org.qcri.rheem.core.mapping.Mapping;
+import io.rheem.rheem.core.mapping.Mapping;
 
 import java.util.Arrays;
 import java.util.Collection;

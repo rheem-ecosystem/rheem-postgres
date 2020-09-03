@@ -1,10 +1,10 @@
-package org.qcri.rheem.postgres.operators;
+package io.rheem.rheem.postgres.operators;
 
-import org.qcri.rheem.basic.data.Record;
-import org.qcri.rheem.basic.function.ProjectionDescriptor;
-import org.qcri.rheem.basic.operators.FilterOperator;
-import org.qcri.rheem.basic.operators.MapOperator;
-import org.qcri.rheem.jdbc.operators.JdbcProjectionOperator;
+import io.rheem.rheem.basic.data.Record;
+import io.rheem.rheem.basic.function.ProjectionDescriptor;
+import io.rheem.rheem.basic.operators.FilterOperator;
+import io.rheem.rheem.basic.operators.MapOperator;
+import io.rheem.rheem.jdbc.operators.JdbcProjectionOperator;
 
 /**
  * PostgreSQL implementation of the {@link FilterOperator}.
